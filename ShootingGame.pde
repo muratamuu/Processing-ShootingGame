@@ -3,6 +3,10 @@ ArrayList<Laser> laserList;
 Enemy enemy;
 Player player;
 
+void mouseClicked() {
+  setup();
+}
+
 void setup() {
   size(500, 500);
   noStroke();
